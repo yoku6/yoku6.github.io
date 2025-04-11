@@ -1,12 +1,12 @@
 # _config.yml
 
 # Site info
-title: My Awesome Blog
+title: Random Yapping
 description: Notes, thoughts, and random ideas
-author: Your Name
-email: your@email.com
-url: "https://yourusername.github.io" # Change to your GitHub Pages URL
-baseurl: "" # If the repo is NOT a user/organization site, use "/your-repo-name"
+author: Kubi
+email: ambellasia@gmail.com
+url: "https://yoku6.github.io" # Change to your GitHub Pages URL
+baseurl: "/yoku6" # If the repo is NOT a user/organization site, use "/your-repo-name"
 
 # Theme
 theme: minima
@@ -20,8 +20,8 @@ plugins:
 # Social links (optional)
 minima:
   social_links:
-    - { platform: github, user_url: "https://github.com/yourusername" }
-    - { platform: twitter, user_url: "https://twitter.com/yourusername" }
+    - { platform: github, user_url: "https://github.com/yoku6" }
+#    - { platform: twitter, user_url: "https://twitter.com/yourusername" }
 
 # Permalinks (optional: cleaner URLs)
 permalink: /:year/:month/:day/:title/
