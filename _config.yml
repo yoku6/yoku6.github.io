@@ -25,6 +25,12 @@ minima:
 # Permalinks (optional: cleaner URLs)
 permalink: /:year/:month/:day/:title/
 
+# Add navigation links
+header_pages:
+  - index.md
+  - about.md
+  - posts.md
+
 # Exclude these files/folders from the build
 exclude:
   - Gemfile
