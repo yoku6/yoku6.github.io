@@ -6,7 +6,7 @@ description: Notes, thoughts, and random ideas
 author: Kubi
 email: ambellasia@gmail.com
 url: "https://yoku6.github.io" # Change to your GitHub Pages URL
-baseurl: "/yoku6" # If the repo is NOT a user/organization site, use "/your-repo-name"
+baseurl: "" # If the repo is NOT a user/organization site, use "/your-repo-name"
 
 # Theme
 theme: minima
