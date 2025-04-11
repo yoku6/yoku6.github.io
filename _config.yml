@@ -1,0 +1,34 @@
+# _config.yml
+
+# Site info
+title: My Awesome Blog
+description: Notes, thoughts, and random ideas
+author: Your Name
+email: your@email.com
+url: "https://yourusername.github.io" # Change to your GitHub Pages URL
+baseurl: "" # If the repo is NOT a user/organization site, use "/your-repo-name"
+
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social links (optional)
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/yourusername" }
+    - { platform: twitter, user_url: "https://twitter.com/yourusername" }
+
+# Permalinks (optional: cleaner URLs)
+permalink: /:year/:month/:day/:title/
+
+# Exclude these files/folders from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
