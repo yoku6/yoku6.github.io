@@ -14,7 +14,7 @@ theme: minima
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-seo-tag
 
 # Social links (optional)
@@ -24,12 +24,6 @@ minima:
 
 # Permalinks (optional: cleaner URLs)
 permalink: /:year/:month/:day/:title/
-
-# Add navigation links
-header_pages:
-  - index.md
-  - about.md
-  - posts.md
 
 # Exclude these files/folders from the build
 exclude:
